@@ -52,13 +52,13 @@
 
 
 
-                                //  taking input in java.//
+                                //   input in java.//
 
 
 
 
 
-/*import java.util.*;
+import java.util.*;
 public class lecture_01{
     public static void main (String args[]){
 
@@ -89,8 +89,7 @@ public class lecture_01{
         float area = 3.24f * a * a;              // here we add f after the value because java understand it double( type) value  withot f
         System.out.println(area); 
     }
-}*/
-
+}
 
 
 
@@ -108,7 +107,7 @@ public class lecture_01{
 
 
 
-/*import java.util.*;                                                                                                                                 
+import java.util.*;                                                                                                                                 
 
 public class lecture_01{
 
@@ -142,7 +141,7 @@ public class lecture_01{
         
 
     }
-}*/
+}
 
 
 
