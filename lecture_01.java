@@ -1,4 +1,4 @@
-public class lecture_01{
+/*public class lecture_01{
     public static void main(String args[]){               // THIS ALL formate is complusary and it's name is boilerplate code
 
         System.out.print("12,4656\n hello world");                     // here we type code that we need to run
@@ -37,38 +37,51 @@ public class lecture_01{
 
 
     }
-}
-
-                                 // taking input in java .//
+}*/
 
 
 
 
 
-import java.util.*;
+
+
+
+
+
+
+
+
+
+                                //  taking input in java.//
+
+
+
+
+
+/*import java.util.*;
 public class lecture_01{
     public static void main (String args[]){
 
         Scanner sc = new Scanner (System.in);          // for taking input we need to write this line.
-        String input = sc.next();
-        System.out.println(input);
+        //String input = sc.next();
+        //System.out.println(input);
 
 
-        String name = sc.nextLine();
-        System.out.println(name);
+        //String name = sc.nextLine();
+        //System.out.println(name);
         
-        int value = sc.nextInt();
-        System.out.println(value);
+        //int value = sc.nextInt();
+        //System.out.println(value);
 
 
-        float  number = sc.nextFloat();
-        System.out.println(number);
+        //float  number = sc.nextFloat();
+        //System.out.println(number);
 
-       int a = sc.nextInt();
-       int b  = sc.nextInt();
-        int sum = a+b;
-       int product = a*b;
-        System.out.println(product);                   // we are doing addition and multiplication
+       // int a = sc.nextInt();
+       // int b  = sc.nextInt();
+        //int sum = a+b;
+       // int product = a*b;
+        //System.out.println(product);                   // we are doing addition and multiplication
 
 
 
@@ -76,7 +89,7 @@ public class lecture_01{
         float area = 3.24f * a * a;              // here we add f after the value because java understand it double( type) value  withot f
         System.out.println(area); 
     }
-}
+}*/
 
 
 
@@ -95,7 +108,7 @@ public class lecture_01{
 
 
 
-import java.util.*;                                                                                                                                 
+/*import java.util.*;                                                                                                                                 
 
 public class lecture_01{
 
