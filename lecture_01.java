@@ -39,26 +39,10 @@
     }
 }*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                //   input in java.//
-
-
-
-
+//   input in java.//
 
 import java.util.*;
+
 public class lecture_01{
     public static void main (String args[]){
 
@@ -91,23 +75,9 @@ public class lecture_01{
     }
 }
 
+// type conversion in java //.
 
-
-
-
-
-
-
-
-
-
-
-                                        // type conversion in java //.
-
-
-
-
-import java.util.*;                                                                                                                                 
+import java.util.*;
 
 public class lecture_01{
 
@@ -143,63 +113,47 @@ public class lecture_01{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-                                    // TYPE PROMOTION IN EXPRESSION \\
+// TYPE PROMOTION IN EXPRESSION \\
 // -------------------------------------------------------------------------------------------------------------------\\
-import java.util.*;                                                                                                                                 
+import java.util.*;
 
-public class lecture_01{
+public class lecture_01 {
 
-    public static void main (String args[]){
-    
+    public static void main(String args[]) {
 
+        // 1. java automatically promotes each byte , short , or char operand to int
+        // when evaluating an expreesion.
 
-// 1. java automatically promotes each byte , short , or char operand to int when evaluating an expreesion.
+        // char a = 'a';
+        // char b = 'b';
+        // System.out.println(b-a);
 
+        // but if print only a or b then
 
-    //char a = 'a';
-    //char b = 'b';
-    //System.out.println(b-a);    
+        // System.out.println(a);
+        // System.out.println((int)(a));
 
+        // char c = b-a; // here we do subtract then b-a become int that can't store in
+        // a char so error occur.
 
-    // but if print only a or b then
+        // short a = 25;
+        // byte b = 4;
+        // char c = 'v';
+        // byte n = (byte)(a +b +c); // heree a + b + c become int that can't store in
+        // byte so we do type casting in byte.
+        // System.out.println(n);
 
-    //System.out.println(a);  
-    //System.out.println((int)(a)); 
-    
+        //// 2. if one operand is long , float , or double the whole exprresion is
+        //// promoted to long , float, or double respectively.
 
+        int a = 10;
+        float b = 40.77f;
+        double d = 30;
+        // int ans = a + b+ d; // error generate because all are converted into double.
+        double ans = a + b + d;
 
-   // char c = b-a;           // here we do subtract then b-a become int that can't store in a char  so error occur.
-
-    //short a = 25;
-    //byte b = 4;
-    //char c = 'v';
-    //byte n = (byte)(a +b +c);    // heree a + b + c become int that can't store in byte so we  do type casting in byte.
-    //System.out.println(n);
-
-
-//// 2. if one operand is long , float , or double the whole exprresion  is promoted to long , float, or double respectively.
-
-     int a = 10;
-     float b = 40.77f;
-     double d = 30;
-     //int ans = a + b+ d;                // error generate because all are converted  into double.
-     double ans = a+ b +d;
-      
-     System.out.print(ans);
-
-
+        System.out.print(ans);
 
     }
-
 
 }
